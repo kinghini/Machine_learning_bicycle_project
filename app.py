@@ -6,7 +6,7 @@ app=Flask(__name__)
 def  index():
     logging.info("we are testing logging")
    
-    return "This is starting of machine learning project"
+    return "Bike_rental CI/CD pipeline has established"
 
 
 if __name__== "__main__" :
