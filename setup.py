@@ -6,7 +6,7 @@ from typing import List
 PROJECT_NAME="bikeshareprediction"
 VERSION="0.0.3"
 AUTHOR="Nimmy Mathew"
-DESRCIPTION="This  Machine Learning  Bike Project"
+DESRCIPTION="This is Machine Learning  Bike Project"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 

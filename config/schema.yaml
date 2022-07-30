@@ -1,0 +1,50 @@
+columns:
+  
+
+  instant : int 
+  season: int
+  yr : int
+  month:int 
+  hr:int
+  holiday:  int 
+  weekday: int  
+  workingday : int
+  weathersit : int
+  temp: float
+  atemp:  float
+  hum : float
+  windspeed:  float
+  cnt: int  
+
+  
+  
+  
+numerical_columns:
+
+  -instant 
+  -season
+  -yr 
+  -month
+  -hr
+  -holiday
+  -weekday 
+  -workingday 
+  -weathersit 
+  -temp
+  -atemp
+  -hum
+  -windspeed
+  -cnt
+
+  
+
+
+target_column: cnt
+
+
+
+
+  
+
+
+
