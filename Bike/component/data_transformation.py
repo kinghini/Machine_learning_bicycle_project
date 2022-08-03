@@ -16,7 +16,7 @@ import pandas as pd
 from Bike.constant import *
 from Bike.util.util import read_yaml_file,save_object,save_numpy_array_data,load_data
 
-###first part need to be changeed
+
     
 instant :int
 season: int

@@ -4,8 +4,8 @@ from Bike.exception import BikeException
 from Bike.logger import logging
 from Bike.entity.artifact_entity import DataIngestionArtifact
 import tarfile
-#from six.moves import urllib
-import requests
+from six.moves import urllib
+#import requests
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
@@ -36,9 +36,9 @@ class DataIngestion:
             tgz_file_path = os.path.join(tgz_download_dir, Bike_file_name)
 
             logging.info(f"Downloading file from :[{download_url}] into :[{tgz_file_path}]")
-            open('tgz_file_path','wb').write((requests.get(download_url,allow_redirects=True)).content)
+            #open('tgz_file_path','wb').write((requests.get(download_url,allow_redirects=True)).content)
             
-            #urllib.request.urlretrieve(download_url, tgz_file_path)
+            urllib.request.urlretrieve(download_url, tgz_file_path)
             logging.info(f"File :[{tgz_file_path}] has been downloaded successfully.")
             return tgz_file_path
 
